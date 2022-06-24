@@ -28,11 +28,11 @@ class Rectangle extends Forme {
     public function __toString()
     {
         return
-         "{Rectangle :$this->id               
-            Centre: $this->centre
-            Largeur:$this->_largeur
-            Longueur:$this->_longueur
-            surface:".self::surface().
+         "{Rectangle :$this->id <br>".              
+            "Centre: $this->centre <br>" .
+            "Largeur:$this->_largeur <br>". 
+            "Longueur:$this->_longueur <br>" .
+            "surface:".self::surface()."<br>" .
             "\n perimetre:".self::perimetre()."
          }";
 

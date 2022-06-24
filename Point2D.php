@@ -20,7 +20,7 @@ class Point2D {
     }
 
     public function bouger(float $dx, float $dy){
-        $this->_x += $dx;
+        $this->_x += $dx ; echo "<br>";
         $this->_y += $dy;
     }
 }
